@@ -1,0 +1,2536 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "12c3a18c-7ce7-11e6-9a05-8c705a50cbf0", 
+    "deck_config_uuid": "12c3a77c-7ce7-11e6-9a05-8c705a50cbf0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "12c3a77c-7ce7-11e6-9a05-8c705a50cbf0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 16, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "How-to-Formulate-Knowledge", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "# How to formulate knowledge Anki deck. (CrowdAnki JSON)\nThis deck is based on the article by Piotr Wozniak. You can find it here: https://www.supermemo.com/en/articles/20rules\n\nIt was originally created by some person from LessWrong community.\n\nIn order to use this deck and to contribute back - please use the CrowdAnki plugin: https://github.com/Stvad/CrowdAnki\n\nYou're welcome to use and improve this deck!\n\nDeck Github repo: https://github.com/Stvad/Learning__How-to-Formulate-Knowledge", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1474126345468", 
+    "name": "Learning::How-to-Formulate-Knowledge", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Add Reverse", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic [optional reversed, extra, source]", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1, 
+                        4
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "asana", 
+                "keyboard", 
+                "shortcuts"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Front first", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Back first", 
+                    "ord": 1, 
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze [extra, source]", 
+            "sortf": 0, 
+            "tags": [
+                "bash", 
+                "link", 
+                "ln"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how many rules are there?", 
+                "20", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r<KpfoaCC-", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "my speed of learning depends on what?", 
+                "how I formulate the material", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cT[)_m||m=", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how I formulate the material determines what?", 
+                "the speed of learning", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d}:*~8u6Kt", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the same material can be learned {{c1::many times faster}}&nbsp;if well formulated", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "heUA}%}[F?", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the 20 rules for formulating knowledge are listed in what order?", 
+                "importance", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jdGTT;K%aL", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "this deck is based on what article?", 
+                "The 20 Rules of Formulating Knowledge", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n5NcA:/_/?", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "who wrote The 20 Rules of Formulating Knowledge?", 
+                "Piotr Wozniak", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uUrp#bN2N3", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "do not {{c2::learn}} if I do not&nbsp;{{c1::understand}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "i!l?P[7I`Y", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "learning a German history book word for word is an example of what?", 
+                "learning what you do not understand", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "id7ZmL.g.G", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "before anything else, always {{c1::understand}} the material!", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "bpF.+g83hh", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "learning items I do not understand will do what?", 
+                "pollute my learning process", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cIEFuk_4nN", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the time needed for what is astronomical?", 
+                "\"blind learning\"<br>(learning what you do not understand)", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b@ep`y<C~T", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "build a picture of the whole before doing what?", 
+                "breaking it down into simple items", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "g/az8#QaV`", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "before breaking an item down into simpler items, what should I do?", 
+                "build a picture of the whole", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j-+Anc(iJp", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "if the whole shows holes, I should...", 
+                "review it again!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r{zlZ$:`Yb", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "do not start with {{c1::memorizing}} loosely related facts", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "un}[PZ7@SB", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "do not start with memorizing what?", 
+                "loosely related facts", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tK!t;0r9tu", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should I do instead of memorizing loosely related facts?", 
+                "read something that puts them together", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "fok3^4GaZ8", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "always start with the&nbsp;{{c1::basics}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "jM-TfLylZ+", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a simpler picture of the learned whole is what?", 
+                "better", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gApjZ@MP[h", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what type of picture of the whole is better?", 
+                "simpler", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pugRYe[TGh", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "simpler models are easier to <span style=\"font-weight:600; color:#0000ff;\">[... and ...]</span>", 
+                "simpler models are easier to <span style=\"font-weight:600; color:#0000ff;\">comprehend and encompass</span>", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sqVT36WP9>", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what can you always do with simple models?", 
+                "build on them later", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vyxJaxG.4[", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "do not {{c1::neglect}} the basics", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "pl4nu&%E`M", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how much of my time do the basics take?", 
+                "a very small portion", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "emDhc}Vvm}", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is memorizing obvious things a waste of time?", 
+                "no!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j1UKaoH;u", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how much time do I ususally spend repeating 3-5% of the material?", 
+                "50%", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ixn9a7A5|;", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "I usually spend 50% of my time repeated how much of the material?", 
+                "3-5%", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e|7P/$r5IB", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a memory lapse on the basics is...", 
+                "very bad", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tnHmN}*~Ok", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "formulated material must be as {{c1::simple}} as possible.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h#-M%2-:et", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what does simplifying <i>not </i>imply? (2 things)", 
+                "1. losing information<br>2. skipping the difficult parts", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tzW2k0c0jv", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "simplicity is imperative becuase of...", 
+                "how the brain works", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "trq%A*;)2x", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "two reasons knowledge must be simple", 
+                "easier to remember<br><br>easier to schedule ", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ia<=^9tb=B", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "simplicity is easier for the brain because you...", 
+                "always process the idea in the same way", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c{z<{A(k$U", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "in my brain, remembering an idea is like what?", 
+                "running through a labyrinth", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pjdPfb21=J", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the labyrinth in our minds is easiest to navigate when an idea is what?", 
+                "simple", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r;p2Mo1Z+e", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should always be as short as possible?", 
+                "answers", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j>Ob}IHv|g", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the longer it takes to {{c2::remember}} an idea, the&nbsp;{{c1::simpler}}&nbsp;it needs to be", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "c>IJzB},F.", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "answers should be as&nbsp;{{c1::short}}&nbsp;as possible", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "kTj(=,3uz", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do I ideally want my brain to work each repetition", 
+                "exactly the same way", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i<w[)rbI{^", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "I want my brain to work exactly the same way each...", 
+                "repetition", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d=}=dv1DK.", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should I do if simplifying isn't working?", 
+                "look to the remaining rules", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pA_UV<Zr2w", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<b>Rules 1-5</b><br />1. {{c1::Understand}} <br />2. {{c2::Start with the Big Picture}} <br />3. {{c3::Build on the Basics}} <br />4. {{c4::Simplify}} <br />5.&nbsp;{{c5::Use Cloze Deletion}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "mO)55.L0$z", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "this very card is an {{c1::example}}&nbsp;of {{c2::cloze deletion}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "f[AQrAC%pf", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "cloze deletion is&nbsp;{{c1::easy and effective}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "i)@[CtYC`b", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what does cloze deletion greatly speed up?", 
+                "memorizing", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ef~S-!_kQi", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is cloze deletion recommended for beginners?", 
+                "yes! (highly)", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nMf_89qIe^", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is close deletion effective for experienced learners?", 
+                "yes!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "~8/oEP~#p", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what do they say about pictures?", 
+                "a picture is worth a thousand words", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oEejo:ILU/", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "images of information are usually far less&nbsp;{{c1::volatile}}&nbsp;than words", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "ilI9o&)s=#", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is a problem with using imagery?", 
+                "they can be time-consuming to make", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "SY/]}Vw7d", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is using imagery always worthwhile?", 
+                "no (becuase it's time-consuming)", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bn^]vVFT:2", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "mnemonic techniques make remembering...", 
+                "easier", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vL?{Lbj-3I", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "mnemonic techniques are often amazingly...", 
+                "effective", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jtiY^]5/xv", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "two common examples of mnemonic techniques?", 
+                "peg lists<br><br>mind maps", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c:W+H@]j%:", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "peg lists and mind maps are examples of what?", 
+                "mnemonic techniques", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uT8hd[OiKp", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "graphic deletion requires doing what?", 
+                "obstructing parts of an image", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "emc6OieM^N", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "is graphic deletion as good as cloze deletion?", 
+                "yes", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oXu?7;3?+7", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is great for learning things like anatomy and geography?", 
+                "graphic deletion", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "(@7iW>;D[", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is a set?", 
+                "a collection of objects", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hT<Igu&7Be", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how hard is it to memorize a set?", 
+                "very hard", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eXX5smU,W@", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;apple, pear, peach&quot; is an example of what?", 
+                "a set", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q]7W#Tgt^_", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;What countries belong to the EU?&quot; is an example of what?", 
+                "a set", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lg$rLznF+#", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "if a set is unavoidable, what should you do with it?", 
+                "convert it to an enumeration ", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cEFZiw:eXI", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "which is better: enumerations or sets?", 
+                "enumerations", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hMB2uI%C>6", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "in general, what should I do with sets?", 
+                "avoid them!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jEzgoE1MI$", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<b>Rules 6-10</b><br />6. {{c1::Use Imagery}}<br />7. {{c2::Use Mnemonic Techniques}}<br />8. {{c3::Use Graphic Deletion}}<br />9. {{c4::Avoid Sets}}<br />10.&nbsp;{{c5::Avoid Enumeration}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "lPN0/6DV8Q", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is an enumeration?", 
+                "an <i>ordered </i>list", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b1XW0jRS?T", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "listing the countries in the EU alphabetically is an example of what?", 
+                "enumeration", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tjvU803TgU", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the way the 20 rules are presented in this deck is an example of what?", 
+                "enumeration", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cOQKb|P3S,", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "enumerations are&nbsp;{{c1::better}}&nbsp;than sets", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "kw7ji+F1!T", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how easy are enumerations to memorize?", 
+                "hard", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p{3.mA*SL0", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should I do with enumerations?", 
+                "avoid them!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qH^!Q$L^]I", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "if enumerations are necessary, what should I use on them?", 
+                "cloze deletion", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jY4.l_Qx&~", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what style of cloze deletion should be used with enumerations?", 
+                "overlapping", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i.b^>p56B0", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what easily happens when I learn about similar things?", 
+                "I confuse them", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o]K&Q6KVz,", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is <i>interference?</i>", 
+                "when knowledge of one item makes it hard to remember another item", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e%*uj1`>H:", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;when knowledge of one item makes it hard to remember another item&quot;", 
+                "<i>interference</i>", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p02j)sKs6m", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "confusing the meanings of <i>historic</i> and <i>historical</i> is an example of what?", 
+                "interference", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "um6YO]&v{$", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is the single greatest cause of forgetting?", 
+                "interference", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o//(j4Mru3", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is the solution to interference? (2 parts)", 
+                "detect<br><br>eliminate", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qG(l`Bj];F", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "to combat interference, make items as...", 
+                "unambiguous as possible", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tzh,Rk%x1a", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "make items as unambiguous as possible to do what?", 
+                "combat interference", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "g>6)aT%!d{", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the <i>moment</i> I spot interference, I should what?", 
+                "eliminate it!", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mi/8X%AnA@", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;I know the meanings of <i>inept</i> and <i>inapt</i>, but I'm confusing the two&quot; is an example of what?", 
+                "interference", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jvQ`|q/j*l", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is 'optimizing wording'?", 
+                "conveying an idea in as few words as necessary", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t0yg$7J}*,", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "replacing <br />&quot;Aldus invented desktop publishing with PageMaker but failed to improve. It was soon outdistanced by …&quot;<br />with<br />&quot;PageMaker lost ground to …&quot;<br />is an example of what?", 
+                "optimizing wording", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e?Z`v[2L_i", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Referring to other memories}}&nbsp;involves using things you {{c2::already know}} to simplify cards", 
+                "", 
+                "<a href=\"https://www.supermemo.com/en/articles/20rules\">https://www.supermemo.com/en/articles/20rules</a>"
+            ], 
+            "flags": 0, 
+            "guid": "fM1UhF7/<E", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "replacing<br />&quot;shamelessly conscious of one's failings and asking in a begging way&quot;<br />with<br />&quot;shamelessly humble and supplicant&quot;<br />is an example of what?", 
+                "referring to other memories", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rgRZ3}j-78", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "marked", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "greatly enhance memories by linking them to what? (2 things)", 
+                "personalized examples<br>strong emotions", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i65W`7?ULY", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;What is the name of a soft bed without arms or back? (like the one at Robert's parents)&quot; is an example of what?", 
+                "personalized examples", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n!nm!(59V5", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "personalized examples are very resistant to interference", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "o9CGnz6DYK", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "I have thousands of {{c2::personal experiences}} on which I can build other&nbsp;{{c1::memories}}.", 
+                "(through personalized examples)", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ifU>5<Pzwn", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<b>Rules 11-15</b><br />11. {{c1::Combat Interference}}<br />12. {{c2::Optimize Wording}}<br />13. {{c3::Refer to Other Memories}}<br />14. {{c4::Use Personalized Examples}}<br />15.&nbsp;{{c5::Rely on Emotional States}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "jOE,0x(aN_", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what do strong emotions facilitate?", 
+                "remembering", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e#oX0$xEk4", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "why are vivid and shocking examples valuable?", 
+                "they are easy to remember", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m_+UsmjJtS", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "illustrate with examples that are <span style=\"font-weight:600; color:#0000ff;\">[... or ...]</span>", 
+                "illustrate with examples that are <span style=\"font-weight:600; color:#0000ff;\">vivid or shocking</span>", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ujf<bBHi;:", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "strong {{c1::emotions}}&nbsp;facilitate remembering", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "bFwu<Vp2v=", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "context cues {{c2::simplify}} {{c1::wording}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "oM6hL>NF%p", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "context cues put ideas within a {{c1::category}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "vH-)w/]itC", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what puts ideas within a category?", 
+                "context cues", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t7AJ~u@/:l", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "&quot;title:, author:, date:, math:, biochem:, etc&quot; are examples of...", 
+                "context cues", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tf.hMP!&/N", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what does it mean to have redundancy?", 
+                "To have duplicate information", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k<[:X9@g,V", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "does redundancy contradict the simplify principle?", 
+                "no", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qN`j~y40O+", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "redundancy can be performed by repeating information using...", 
+                "various methods", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uC4)GZv(<T", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "providing sources is {{c1::highly}}&nbsp;recommended", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "o::x;r.&tx", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what do sources help to distinguish?", 
+                "conflicting information", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d%KAQn^F:x", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what do sources help to judge about an idea? (2 things)", 
+                "reliability<br><br>importance", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q/u,EcKv7d", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sources may not be necessary for what types of knowledge? (2 types)", 
+                "well-tested<br><br>proven", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sW6yRSH@Ax", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<i>date stamping</i> means including the date the information was <span style=\"font-weight:600; color:#0000ff;\">[... or ...]</span>", 
+                "<i>date stamping</i> means including the date the information was <span style=\"font-weight:600; color:#0000ff;\">created or retrieved</span>", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "iLlDi)uG8V", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "when is date stamping particularly useful?", 
+                "when knowledge is <i>volatile</i>", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tEt}9Y(08X", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "volatile knowledge is knowledge that is...", 
+                "subject to change over time", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s@)mf-*7];", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<b>Rules 16-20</b><br />16. {{c1::Use Context Cues}}<br />17. {{c2::Use Redundancy}}<br />18. {{c3::Provide Sources}}<br />19. {{c4::Provide Date Stamping}}<br />20.&nbsp;{{c5::Prioritize}}", 
+                "", 
+                "https://www.supermemo.com/en/articles/20rules"
+            ], 
+            "flags": 0, 
+            "guid": "oi@h@62FqI", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "prioritize, because some sources are...", 
+                "better than others", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "u@Z.DVy#!d", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should I do rather than memorize whole books?", 
+                "prioritize", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lQH,tD5[E^", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "putting less important information in parentheses helps to what?", 
+                "prioritize<br>(put some less important information here)", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tcD}D,iC+|", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what helps me deal with sources that vary in quality?", 
+                "prioritizing", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qSWR2#$}KS", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what does it make sense to do, other than memorizing whole books?", 
+                "prioritize (focus on what's important)", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "fj!,=B,:XW", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "anki", 
+                "knowledge", 
+                "learning", 
+                "srs"
+            ]
+        }
+    ]
+}
